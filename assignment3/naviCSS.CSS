@@ -1,0 +1,54 @@
+
+/* page 1 */
+#contactInfo{
+    color: darkseagreen;
+    background-color: darkslategray;
+}
+
+#pg1{
+     color: lightcoral;
+     background-color: darkcyan;
+}
+
+/* page 2*/
+#cyanBackground{
+   background-color: lightpink;
+}
+
+/*page 3*/
+#Background{
+    color: mistyrose;
+    background-color: darkmagenta;
+}
+
+/* all pages */
+h1 {
+    color:lavender;
+    background-color: darkslateblue;
+}
+
+h2{
+    color: cyan;
+    background-color: darkcyan;
+}
+
+h3{
+    color: darkblue;
+    background-color: hotpink;
+}
+
+a{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: yellow;
+}
+
+.turnpink{
+    color: deeppink;
+}
