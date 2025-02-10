@@ -1,0 +1,59 @@
+
+
+h2{
+    color:blue;
+}
+
+h3{
+    color:black;
+    background-color: yellow;
+}
+
+h4{
+    color:yellow;
+    background-color: green;
+}
+
+h5{
+    color:red;
+}
+
+#turnRed{
+    color:red;
+}
+
+.yellowBackground{
+    background-color: yellow;
+}
+
+a{
+    color:green;
+    text-decoration:none;
+}
+
+a:visited{
+    color:green;
+    text-decoration:none;
+}
+
+a:hover{
+    color:red;
+    text-decoration:underline;
+}
+
+.turnWhite{
+    color:white;
+}
+
+.turnOrange{
+    color:orange;
+}
+
+#peaSoup{
+    color:black;
+    background-color: greenyellow;
+}
+
+#cornFlowerBlue{
+    background-color:cornflowerblue;
+}
