@@ -1,0 +1,93 @@
+
+
+body{
+    background-image: url(a5bg.png);
+ }
+
+h1{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:normal;
+    border:5px solid white;
+    background-color:white;
+    padding: 10px 10px 10px 10px;
+}
+
+h2{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+footer{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    font-weight: bold;
+    font-style: italic; 
+    text-align:center;
+}
+
+#textJust{
+    text-align: justify;
+}
+
+.blueCube{
+    border:5px solid white;
+    background-color:darkblue;
+    padding: 40px 40px 40px 40px;
+}
+
+#whiteCube{
+    border:5px solid white;
+    background-color:white;
+    padding: 10px 10px 10px 10px;
+}
+
+nav ul{
+    color:white;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+nav li{
+    display: inline-block;
+    color:white;
+    width: 175px;
+    margin: 20px;
+    background-color: darkblue;
+}
+
+nav li a{
+    color:white;
+    font-weight:normal;
+    display:block;
+    padding:15px;
+}
+
+nav li a:hover{
+     background-color: blue;
+     color:white;
+     text-decoration: none;
+}
+
+nav li a:visited{
+     color: white;
+}
+
+#linksBlue{
+    border:5px darkblue;
+    background-color:darkblue;
+    padding:5px 5px 5px 5px;
+    text-align:center;
+}
+
+main a:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+main a, a:visited{
+    color: blue;
+    text-decoration: none;
+    font-weight:bold;
+}
