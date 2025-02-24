@@ -1,0 +1,20 @@
+h1{
+   font-family:Helvetica, Arial, sans-serif;
+   font-weight: normal;
+}
+
+h2{
+    font-family:Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.para1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+a{
+     color:red;
+     font-weight:bold;
+     text-decoration:none;
+}
