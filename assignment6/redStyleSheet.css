@@ -1,0 +1,108 @@
+
+html{
+    background-image:url(a62.png);
+}
+
+body{
+    display: grid;
+    background-color:white;
+    border:3px solid black;
+    margin:1em;
+    width:60em;
+    grid-template-columns: repeat(12,1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 1px;
+}
+
+header{
+    grid-column: span 12;
+    background-color:black;
+    color:white; 
+    padding-left: 10px;
+}
+
+main {
+    grid-column:span 10;
+    padding-left: 10px;
+}
+  
+main img{
+    border:2px solid black;
+    float: left;
+    padding: 10px;
+    margin:10px;
+}
+
+footer{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-style:italic; 
+    text-align:center;
+    color:white;
+    background-color:red;
+    grid-column:span 12;
+    padding: 1em;
+}
+
+
+h1{
+   font-family:Helvetica, Arial, sans-serif;
+   font-weight: normal;
+}
+
+h2{
+    font-family:Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    border-bottom:2px solid black;
+}
+
+#para1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-weight:bold;
+}
+
+body a, body a:visited {
+    color:red;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+body a:hover {
+    color:blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    font-family: Helvetica, sans-serif, Arial;
+    font-weight:normal;
+    display: inline-block;
+    color: white;
+    width: 200px;
+    margin: 8px;
+    background-color: red
+}
+  
+nav li a {
+    font-family: Helvetica, sans-serif, Arial;
+    font-weight:normal;
+    display: block;
+    background-color: red;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    font-family: Helvetica, sans-serif, Arial;
+    font-weight:normal;
+    background-color:darkred;
+    color:white;
+    text-decoration:none;
+}
