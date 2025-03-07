@@ -1,0 +1,115 @@
+html{
+    background-image:url(stadrew_bricks67.png);
+}
+
+#allGrid{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    grid-template-columns: repeat(12,1fr);
+    display: grid;
+    border: 2px solid black;
+    background-color: white;
+}
+
+main a, a:visited{
+    color:darkgreen;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+main a:hover{
+    color:darkmagenta;
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+H1{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    grid-column: span 12;
+    padding: 10px;
+    background-color:cornflowerblue;
+    color:white; 
+    border-bottom: 2px solid black; 
+}
+
+nav{
+    grid-column: span 12;
+    background-color:white;
+    padding: 10px;
+    
+}
+
+nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background-color:white;
+}
+
+nav li{
+    display: inline-block;
+    color: white;
+    background-color: lightgreen; 
+    width: 250px;
+    margin: 8px
+    
+}
+
+nav li a{
+    color:white;
+    font-weight: normal;
+    display:block; 
+    padding: 1em;
+    text-decoration: none;
+    border: 2px solid black;
+    background-color:lightgreen;
+    text-align: center;
+}
+
+nav li a:hover{
+    background-color: darkgreen;
+    color:white;
+}
+
+nav li a:visited{
+    color: white;
+}
+
+main img{
+    float:right;
+    padding: 2em;
+}
+
+main{
+    grid-column:span 9;
+    margin: 5px;
+}
+
+main h2{
+    border-bottom: 3px solid black;
+}
+
+aside{
+    color:white;
+    grid-column: span 3; 
+    background-color:cornflowerblue;
+    padding: 15px;
+    border-bottom: 3px solid white;
+}
+
+aside h2{
+    border-bottom: 3px solid white;
+}
+
+footer{
+    background-color:cornflowerblue;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:bold;
+    grid-column: span 12;
+    padding: 1em;
+    color: black;
+    border-top: 3px solid black;
+}
