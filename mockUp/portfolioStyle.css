@@ -1,0 +1,104 @@
+
+
+#allGrid{
+  font-family:'Courier New', Courier, monospace; 
+  grid-template-columns: repeat(12,1fr); 
+  display: grid; 
+  border: 4px solid hotpink; 
+  background-color: darkgray; 
+}
+
+#mainImg{
+  grid-column: span 12; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 99%;
+}
+
+.center{
+  display:block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 95%; 
+}
+
+header{
+  grid-column: span 12; 
+  padding: 10px; 
+  background-color:darkslateblue; 
+  color:white; 
+}
+
+nav{
+  grid-column: span 12; 
+  padding: 10px;
+}
+
+nav ul{
+  list-style-type: none; 
+  margin: 0px;
+  padding: 0px; 
+  grid-template-rows: 1fr 1fr 1fr;   
+}
+
+nav li{
+  grid-column: span 12;
+  display: inline-block; 
+  padding: 10px; 
+  margin: 2px auto; 
+  width: 438px; 
+  color: black; 
+  background-color:pink;
+}
+
+nav li a{
+  background-color:pink;
+  font-family:'Courier New', Courier, monospace; 
+  color: white; 
+  text-align: center; 
+  font-weight: bold; 
+  display: block; 
+  text-decoration: none; 
+  padding: 0em; 
+}
+
+nav li a:hover{
+  font-family:'Courier New', Courier, monospace; 
+  background-color: hotpink; 
+  font-weight:bold; 
+}
+
+nav li a:visited{
+  color:white; 
+}
+
+main{
+  grid-column: span 12;
+}
+
+h1 {
+  text-align:center; 
+  color: white;  
+}
+
+.column{
+  float: left; 
+  width: 30%; 
+  margin: 15px; 
+}
+
+.row:after{
+  content:""; 
+  display: table; 
+  clear: both; 
+  margin: 10px; 
+  padding: 10px; 
+}
+
+.boxText{
+  background-color:darkslateblue; 
+  text-align:center; 
+  color: white; 
+}
+
