@@ -1,11 +1,17 @@
-
+html{
+  background-color: black; 
+}
 
 #allGrid{
-  font-family:'Courier New', Courier, monospace; 
+  font-family:"Delius Swash Caps";
   grid-template-columns: repeat(12,1fr); 
   display: grid; 
-  border: 4px solid hotpink; 
-  background-color: darkgray; 
+}
+
+.delius-swash-caps-regular {
+  font-family: "Delius Swash Caps", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #mainImg{
@@ -13,7 +19,7 @@
   display: block; 
   margin-left: auto; 
   margin-right: auto; 
-  width: 99%;
+  width: 50%;
 }
 
 .center{
@@ -26,13 +32,15 @@
 header{
   grid-column: span 12; 
   padding: 10px; 
-  background-color:darkslateblue; 
   color:white; 
 }
 
 nav{
   grid-column: span 12; 
-  padding: 10px;
+  margin-left: auto; 
+  margin-right: auto;
+  padding: 5px;
+  font-size:normal; 
 }
 
 nav ul{
@@ -46,35 +54,46 @@ nav li{
   grid-column: span 12;
   display: inline-block; 
   padding: 10px; 
-  margin: 2px auto; 
   width: 438px; 
   color: black; 
-  background-color:pink;
+  
 }
 
 nav li a{
-  background-color:pink;
-  font-family:'Courier New', Courier, monospace; 
+  background-color:darkgray;
   color: white; 
   text-align: center; 
   font-weight: bold; 
   display: block; 
   text-decoration: none; 
-  padding: 0em; 
+  padding: 20px; 
+  border-radius:10px; 
+  text-shadow: 2px 2px 2px #000;
+  transition: background-color, box-shadow, 1.0s, width 2.0s, color .1s;
+  
 }
 
 nav li a:hover{
-  font-family:'Courier New', Courier, monospace; 
   background-color: hotpink; 
   font-weight:bold; 
+  box-shadow: 10px 10px 10px pink;
 }
 
 nav li a:visited{
   color:white; 
 }
 
+.roundedBox{
+  padding: 10px;
+  width: 250px;
+  border: 2px solid #999;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
 main{
   grid-column: span 12;
+  color: white; 
 }
 
 h1 {
