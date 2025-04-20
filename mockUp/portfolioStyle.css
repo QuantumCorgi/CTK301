@@ -96,6 +96,10 @@ main{
   color: white; 
 }
 
+video{
+  grid-column: span 12; 
+}
+
 h1 {
   text-align:center; 
   color: white;  
@@ -119,5 +123,16 @@ h1 {
   background-color:darkslateblue; 
   text-align:center; 
   color: white; 
+}
+
+
+#myCarousel{
+  margin-bottom: 24px;
+}
+
+#myCarousel .f-carousel__slide{
+  text-align: center;
+  padding: 24px;
+  background: #eee;
 }
 
