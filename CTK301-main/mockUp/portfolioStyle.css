@@ -47,16 +47,18 @@ nav ul{
   list-style-type: none; 
   margin: 0px;
   padding: 0px; 
-  grid-template-rows: 1fr 1fr 1fr;   
+  /*grid-template-rows: 1fr 1fr 1fr;*/    
 }
 
 nav li{
   grid-column: span 12;
   display: inline-block; 
   padding: 10px; 
-  width: 438px; 
+  width: 500px; 
   color: black; 
   
+  /* width: 438px; */
+
 }
 
 nav li a{
@@ -64,6 +66,7 @@ nav li a{
   color: white; 
   text-align: center; 
   font-weight: bold; 
+  font-size:large;
   display: block; 
   text-decoration: none; 
   padding: 20px; 
@@ -93,16 +96,26 @@ nav li a:visited{
 
 main{
   grid-column: span 12;
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
   color: white; 
 }
 
-video{
-  grid-column: span 12; 
+video{ 
+  margin-left: 0px; 
 }
 
 h1 {
   text-align:center; 
   color: white;  
+}
+
+.gameName{
+  margin-left: 0px; 
+}
+
+.myStuff{ 
+  margin-right: 00px; 
 }
 
 .column{
@@ -128,11 +141,16 @@ h1 {
 
 #myCarousel{
   margin-bottom: 24px;
+  
+  margin-right: 0px; 
+
+  width: 600px; 
+  height: 600px; 
 }
 
 #myCarousel .f-carousel__slide{
   text-align: center;
   padding: 24px;
-  background: #eee;
+  background: black;
 }
 
