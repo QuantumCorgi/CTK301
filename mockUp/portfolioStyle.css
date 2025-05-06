@@ -1,0 +1,282 @@
+html{
+  background-color: black; 
+}
+
+#allGrid{
+  font-family:"Delius Swash Caps";
+  grid-template-columns: repeat(12,1fr); 
+  display: grid; 
+}
+
+.delius-swash-caps-regular {
+  font-family: "Delius Swash Caps", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#mainImg{
+  grid-column: span 12; 
+}
+
+
+header{
+  grid-column: span 12; 
+  padding: 10px; 
+  color:white;
+  background-color: pink; 
+}
+
+nav{
+  grid-column: span 12; 
+  margin-left: auto; 
+  margin-right: auto;
+  padding: 5px;
+  font-size:normal; 
+  background-color:pink; 
+  border-bottom-right-radius: 20px; 
+  border-bottom-left-radius: 20px;
+}
+
+nav ul{
+  list-style-type: none; 
+  margin: 0px;
+  padding: 0px;   
+}
+
+nav li{
+  grid-column: span 12;
+  display: inline-block; 
+  padding: 10px; 
+  width: 500px; 
+  color: black; 
+}
+
+nav li a{
+  background-color:darkgray;
+  color: white; 
+  text-align: center; 
+  font-weight: bold; 
+  font-size:large;
+  display: block; 
+  text-decoration: none; 
+  padding: 20px; 
+  border-radius:10px; 
+  text-shadow: 2px 2px 2px #000;
+  transition: background-color, box-shadow, 1.0s, width 2.0s, color 0.1s;
+  color: white;
+}
+
+nav li a:hover{
+  background-color: hotpink; 
+  font-weight:bold; 
+  box-shadow: 10px 10px 10px aquamarine;
+  color: white; 
+}
+
+nav li a:visited{
+  color:white; 
+}
+
+.roundedBox{
+  padding: 10px;
+  width: 250px;
+  border: 2px solid #999;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.mostPg{
+  grid-column: span 12;
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  color: white; 
+}
+
+.homePg{
+  grid-column: span 8;
+  display: grid;  
+}
+
+#gamePg{
+  grid-column: span 4;
+}
+
+.artMain{
+  grid-column: span 12; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  color: white; 
+}
+
+video{ 
+  margin-top: 50px; 
+  margin-left: 90px; 
+}
+
+h1 {
+  text-align:center; 
+  color: white;  
+}
+
+.gameH{
+  border: 8px solid pink; 
+  border-radius: 13em; 
+  margin-left: 8em;
+  margin-top: 2em; 
+  text-align: center; 
+  padding: 40px; 
+  font-size:larger;
+}
+
+.column{
+  float: left; 
+  width: 30%; 
+  margin: 24px; 
+  padding: 1px; 
+}
+
+.row:after{
+  content:""; 
+  display: table; 
+  clear: both; 
+}
+
+.center{
+  display:block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 100%
+}
+
+.boxText{
+  background-color:darkslateblue; 
+  text-align:center; 
+  color: white; 
+}
+
+.homeImg{
+  grid-column: span 4;
+  float: left; 
+  margin: 5px; 
+  padding: 5px;  
+  padding-left: 15em; 
+  padding-top: 30px; 
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 8px;
+  left: 25.5em;
+}
+
+#bkground{
+  background-color: black;
+  padding: 30px; 
+  border-radius: 60px; 
+}
+
+#titleWord{
+  color: white; 
+  text-align: center; 
+  border-bottom:2px solid white; 
+  grid-column: span 9; 
+}
+
+#gameText{
+  color:white;
+  grid-column:span 8;  
+}
+
+#imgRnd{ 
+  border: 1em solid hotpink; 
+  border-radius: 60em;
+  box-shadow: 10px 10px 10px 10px pink;
+}
+
+#pageText{
+  color: white; 
+  grid-column: span 8;
+  float: right;
+  margin: 30px; 
+  padding: 70px;  
+  margin-top: 100px;
+  margin-right: 8em;
+  margin-left: 8em;  
+  border: 1em solid pink; 
+  border-radius: 500em;  
+  text-align:center; 
+  font-size:large;
+}
+
+
+a{
+  color:aquamarine;
+  font-weight:normal; 
+}
+
+a:hover{
+   color:cornflowerblue;
+   font-weight:normal; 
+}
+
+a:visited{
+  color: aquamarine; 
+  font-weight:normal; 
+}
+
+#myCarousel{
+  margin-bottom: 24px;
+  margin-right: 0px; 
+  margin-left: 110px; 
+  width: 600px; 
+  height: 600px; 
+}
+
+#myCarousel .f-carousel__slide{
+  text-align: center;
+  padding: 24px;
+  background: black;
+}
+
+
+/*
+#pixelCarousel{
+  margin-bottom: 24px;
+  margin-right: 0px; 
+  width: 600px; 
+  height: 600px; 
+}
+
+#pixelCarousel .f-carousel__slide{
+  text-align: center;
+  padding: 24px;
+  background: black;
+}
+
+
+ <div id="myCarousel" class="f-carousel">
+                <div class="f-carousel__slide"><img src="Bean_Snail.png"></div>
+                <div class="f-carousel__slide"><img src="Meowchi.png"></div>
+                <div class="f-carousel__slide"><img src="Missy.png"></div>
+                <div class="f-carousel__slide"><img src="Mushroom_Thingy.png"></div>
+                <div class="f-carousel__slide"><img src="Ramen_Snail.png"></div>
+                <div class="f-carousel__slide"><img src="Ratthew 1.png"></div>
+                <div class="f-carousel__slide"><img src="Ratthew.png"></div>
+                <div class="f-carousel__slide"><img src="T3A_Bot.png"></div>
+                <div class="f-carousel__slide"><img src="Tree_Hugger.png"></div>
+            
+          </div>
+
+ <script>
+            const container = document.getElementById("myCarousel");
+            const options = { infinite: true };
+            new Carousel(container, options);
+        </script>
+
+
+*/
